@@ -14,7 +14,7 @@ main(){
 	    ZIP=$(curl ipinfo.io/$WAN/postal)
             echo "${ZIP}"
             COUNTER=5
-	        $(cd /opt/flux/ && ./xflux -z $ZIP)
+	        $(cd /opt/Flux-Auto-Start-for-Linux/ && ./xflux -z $ZIP)
         else
             COUNTER=$(($COUNTER + 1))
 		echo "Cannot get Zip"
