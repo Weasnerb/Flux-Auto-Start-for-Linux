@@ -3,7 +3,7 @@
 - NOTICE: I also do not own the rights to the flux icon
 
 ## Install:
-1. Clone the Repo into the /opt/ directory.
-2. Download the linux command line flux application(xflux) from https://justgetflux.com/linux/xflux64.tgz and place it in /opt/Flux-Auto-Start-for-Linux/
-3. While in /opt/Flux-Auto-Start-for-Linux/ Run 'tar -xf xflux64.tgz' (without quotes) to extract xflux.
-4. Copy startFlux.sh.desktop to  ~/.config/autostart/
+1. Download and unzip, or clone from git repo.
+2. Establish internet connection.
+3. Run the install.sh script with sudo permissions.
+4. `sudo ./install.sh`
